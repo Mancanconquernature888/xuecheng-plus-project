@@ -43,6 +43,7 @@ public class TokenConfig {
     public JwtAccessTokenConverter accessTokenConverter() {
         JwtAccessTokenConverter converter = new JwtAccessTokenConverter();
         converter.setSigningKey(SIGNING_KEY);
+        System.out.println("aaaaaaaaaaaaa");
         return converter;
     }
 
